@@ -9,7 +9,7 @@ const PORT = process.env.PORT || 5000;
 const GOOGLE_SCRIPT_URL = process.env.GOOGLE_SCRIPT_URL;
 const FRONTEND_URL = [
   "https://itrsiaannisa.github.io",     // Frontend 1 (GitHub)
-  "https://kpi.rsiaannisa.com"          // Frontend 2 (Subdomain Hostinger)
+  "https://kpi.annisapekanbaru.com/"          // Frontend 2 (Subdomain Hostinger)
 ];
 app.use(
   cors({
