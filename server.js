@@ -7,7 +7,7 @@ require("dotenv").config();
 const app = express();
 const PORT = process.env.PORT || 5000;
 const GOOGLE_SCRIPT_URL = process.env.GOOGLE_SCRIPT_URL;
-const FRONTEND_URL = "http://192.168.12.129:3000";
+const FRONTEND_URL = "https://itrsiaannisa.github.io";
 
 app.use(
   cors({
